@@ -1,0 +1,15 @@
+.filters{
+    max-width: 1200px;
+    margin: 20px auto;
+    padding-left: 20px;
+}
+
+::ng-deep{
+    .mat-form-field-infx{
+        background-color: #3f51b5;
+    }
+}
+
+//.mat-select-value,
+//.mat-select-arrow,
+//.mat-form-field-hide-placeholder .mat-select-placeholder
