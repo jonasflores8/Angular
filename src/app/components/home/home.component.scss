@@ -48,7 +48,7 @@
 .game{
   width: 280px;
   margin: 10px;
-  height: 300px;
+  height: 380px;
   overflow: hidden;
   border-radius: 5px;
   background-color: #202020;
@@ -79,7 +79,7 @@
   }
 
   &-description{
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -88,7 +88,7 @@
 
   &-name{
     color: #fff;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 22px;
     margin-bottom: nowrap;
     text-overflow: ellipsis;
@@ -100,6 +100,6 @@
   }
 
   &-platform{
-    width: 20px;
+    width: 50px;
   }
 }
