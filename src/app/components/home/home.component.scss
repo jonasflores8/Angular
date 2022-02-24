@@ -48,7 +48,7 @@
 .game{
   width: 280px;
   margin: 10px;
-  height: 380px;
+  height: 330px;
   overflow: hidden;
   border-radius: 5px;
   background-color: #202020;
@@ -64,7 +64,7 @@
   &-thumb-container{
     background-color: black;
     position: relative;
-    height: 172px;
+    height: 140px;
     color: #fff;
     text-align: center;
   }
@@ -79,11 +79,11 @@
   }
 
   &-description{
-    padding: 10px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    height: 157px;
+    height: 140px;
   }
 
   &-name{
@@ -100,6 +100,6 @@
   }
 
   &-platform{
-    width: 50px;
+    width: 40px;
   }
 }
